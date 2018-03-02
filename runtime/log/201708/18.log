@@ -1,0 +1,51 @@
+---------------------------------------------------------------
+[ 2017-08-18T09:28:22+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005602s ] mysql:dbname=bigbase;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goods` [ RunTime:0.014933s ]
+[ sql ] [ SQL ] SELECT * FROM `goods` [ RunTime:0.000340s ]
+[ sql ] [ SQL ] SELECT SUM(saleprice) AS tp_sum FROM `goods` LIMIT 1 [ RunTime:0.000235s ]
+---------------------------------------------------------------
+[ 2017-08-18T09:41:11+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002542s ] mysql:dbname=bigbase;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goods` [ RunTime:0.017345s ]
+[ sql ] [ SQL ] SELECT * FROM `goods` [ RunTime:0.000332s ]
+[ sql ] [ SQL ] SELECT SUM(saleprice) AS tp_sum FROM `goods` LIMIT 1 [ RunTime:0.000254s ]
+---------------------------------------------------------------
+[ 2017-08-18T09:42:57+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/index/index/add.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001140s ] mysql:dbname=bigbase;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goods` [ RunTime:0.012967s ]
+[ sql ] [ SQL ] INSERT INTO `goods` (`creattime` , `number`) VALUES ('2017-08-18 09:42:57' , 1) [ RunTime:0.000432s ]
+---------------------------------------------------------------
+[ 2017-08-18T09:43:57+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/index/index/add.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001299s ] mysql:dbname=bigbase;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goods` [ RunTime:0.023137s ]
+[ sql ] [ SQL ] INSERT INTO `goods` (`creattime` , `number`) VALUES ('2017-08-18 09:43:57' , 1) [ RunTime:0.000379s ]
+---------------------------------------------------------------
+[ 2017-08-18T09:46:09+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001476s ] mysql:dbname=bigbase;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goods` [ RunTime:0.015477s ]
+[ sql ] [ SQL ] SELECT * FROM `goods` [ RunTime:0.000523s ]
+[ sql ] [ SQL ] SELECT SUM(saleprice) AS tp_sum FROM `goods` LIMIT 1 [ RunTime:0.000402s ]
+---------------------------------------------------------------
+[ 2017-08-18T09:58:10+08:00 ] 127.0.0.1 127.0.0.1 POST /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001574s ] mysql:dbname=bigbase;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goods` [ RunTime:0.017471s ]
+[ sql ] [ SQL ] SELECT * FROM `goods` [ RunTime:0.000401s ]
+[ sql ] [ SQL ] SELECT SUM(saleprice) AS tp_sum FROM `goods` LIMIT 1 [ RunTime:0.000318s ]
+---------------------------------------------------------------
+[ 2017-08-18T09:58:19+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001838s ] mysql:dbname=bigbase;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goods` [ RunTime:0.021139s ]
+[ sql ] [ SQL ] SELECT * FROM `goods` [ RunTime:0.000306s ]
+[ sql ] [ SQL ] SELECT SUM(saleprice) AS tp_sum FROM `goods` LIMIT 1 [ RunTime:0.000274s ]
+---------------------------------------------------------------
+[ 2017-08-18T09:59:17+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/index/index/add?orderno=45960823815872531&logicno=3336272052643&title=%E8%BF%90%E5%8A%A8%E5%A5%97%E8%A3%85%E5%A5%B3%E5%A4%8F2017%E6%96%B0%E6%AC%BE%E6%BD%AE%E9%9F%A9%E7%89%88%E6%97%B6%E5%B0%9A%E7%9F%AD%E8%A2%96%E7%9F%AD%E8%A3%99%E8%B7%91%E6%AD%A5%E7%BA%AF%E6%A3%89%E4%BC%91%E9%97%B2%E5%A4%8F%E8%A3%85%E4%B8%A4%E4%BB%B6%E5%A5%97&saleprice=39&stockprice=25&poundage=2&freight=6
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001269s ] mysql:dbname=bigbase;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goods` [ RunTime:0.016600s ]
+[ sql ] [ SQL ] INSERT INTO `goods` (`orderno` , `logicno` , `title` , `saleprice` , `stockprice` , `poundage` , `freight` , `creattime` , `number`) VALUES ('45960823815872531' , '3336272052643' , '运动套装女夏2017新款潮韩版时尚短袖短裙跑步纯棉休闲夏装两件套' , 39 , 25 , 2 , 6 , '2017-08-18 09:59:17' , 1) [ RunTime:0.000452s ]
+---------------------------------------------------------------
+[ 2017-08-18T09:59:25+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001069s ] mysql:dbname=bigbase;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goods` [ RunTime:0.013409s ]
+[ sql ] [ SQL ] SELECT * FROM `goods` [ RunTime:0.000247s ]
+[ sql ] [ SQL ] SELECT SUM(saleprice) AS tp_sum FROM `goods` LIMIT 1 [ RunTime:0.000136s ]

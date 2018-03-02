@@ -1,0 +1,12 @@
+[ 2017-08-26T11:08:26+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.001932s ] mysql:dbname=bigbase;host=127.0.0.1;port=3306;charset=utf8
+[ 2017-08-26T11:08:26+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `goods` [ RunTime:0.016190s ]
+[ 2017-08-26T11:08:26+08:00 ][ sql ] [ SQL ] SELECT * FROM `goods` [ RunTime:0.000352s ]
+[ 2017-08-26T11:08:26+08:00 ][ sql ] [ SQL ] SELECT SUM(saleprice) AS tp_sum FROM `goods` LIMIT 1 [ RunTime:0.000460s ]
+[ 2017-08-26T11:08:30+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.001917s ] mysql:dbname=bigbase;host=127.0.0.1;port=3306;charset=utf8
+[ 2017-08-26T11:08:30+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `goods` [ RunTime:0.014050s ]
+[ 2017-08-26T11:08:30+08:00 ][ sql ] [ SQL ] SELECT * FROM `goods` [ RunTime:0.000376s ]
+[ 2017-08-26T11:08:30+08:00 ][ sql ] [ SQL ] SELECT SUM(saleprice) AS tp_sum FROM `goods` LIMIT 1 [ RunTime:0.000371s ]
+[ 2017-08-26T11:08:36+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.001472s ] mysql:dbname=bigbase;host=127.0.0.1;port=3306;charset=utf8
+[ 2017-08-26T11:08:36+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `goods` [ RunTime:0.016618s ]
+[ 2017-08-26T11:08:36+08:00 ][ sql ] [ SQL ] SELECT * FROM `goods` [ RunTime:0.000409s ]
+[ 2017-08-26T11:08:36+08:00 ][ sql ] [ SQL ] SELECT SUM(saleprice) AS tp_sum FROM `goods` LIMIT 1 [ RunTime:0.000375s ]

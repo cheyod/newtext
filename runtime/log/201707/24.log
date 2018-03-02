@@ -1,0 +1,288 @@
+---------------------------------------------------------------
+[ 2017-07-24T10:58:04+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002388s ] mysql:dbname=bigbase;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goods` [ RunTime:0.039021s ]
+[ sql ] [ SQL ] SELECT * FROM `goods` [ RunTime:0.000279s ]
+---------------------------------------------------------------
+[ 2017-07-24T11:09:04+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/
+[ error ] [4]语法错误: unexpected '=', expecting ']'
+---------------------------------------------------------------
+[ 2017-07-24T11:09:16+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/
+[ error ] [4]语法错误: unexpected '=', expecting ']'
+---------------------------------------------------------------
+[ 2017-07-24T11:09:16+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/
+[ error ] [4]语法错误: unexpected '=', expecting ']'
+---------------------------------------------------------------
+[ 2017-07-24T11:09:33+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/
+[ error ] [4]语法错误: unexpected '=', expecting ']'
+---------------------------------------------------------------
+[ 2017-07-24T11:09:34+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/
+[ error ] [4]语法错误: unexpected '=', expecting ']'
+---------------------------------------------------------------
+[ 2017-07-24T11:09:34+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/
+[ error ] [4]语法错误: unexpected '=', expecting ']'
+---------------------------------------------------------------
+[ 2017-07-24T11:09:35+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/
+[ error ] [4]语法错误: unexpected '=', expecting ']'
+---------------------------------------------------------------
+[ 2017-07-24T11:09:41+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/
+[ error ] [4]语法错误: unexpected '=', expecting ']'
+---------------------------------------------------------------
+[ 2017-07-24T11:09:45+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/
+[ error ] [4]语法错误: unexpected '=', expecting ']'
+---------------------------------------------------------------
+[ 2017-07-24T11:10:05+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/
+[ error ] [4]语法错误: unexpected '=', expecting ']'
+---------------------------------------------------------------
+[ 2017-07-24T11:10:06+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/
+[ error ] [4]语法错误: unexpected '=', expecting ']'
+---------------------------------------------------------------
+[ 2017-07-24T11:10:09+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/
+[ error ] [4]语法错误: unexpected '=', expecting ']'
+---------------------------------------------------------------
+[ 2017-07-24T11:10:16+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/
+[ error ] [4]语法错误: unexpected '=', expecting ']'
+---------------------------------------------------------------
+[ 2017-07-24T11:10:30+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/
+[ error ] [4]语法错误: unexpected '=', expecting ']'
+---------------------------------------------------------------
+[ 2017-07-24T11:10:30+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/
+[ error ] [4]语法错误: unexpected '=', expecting ']'
+---------------------------------------------------------------
+[ 2017-07-24T11:10:31+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/
+[ error ] [4]语法错误: unexpected '=', expecting ']'
+---------------------------------------------------------------
+[ 2017-07-24T11:11:09+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/
+[ error ] [4]语法错误: unexpected '=', expecting ']'
+---------------------------------------------------------------
+[ 2017-07-24T11:11:10+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/
+[ error ] [4]语法错误: unexpected '=', expecting ']'
+---------------------------------------------------------------
+[ 2017-07-24T11:11:11+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/
+[ error ] [4]语法错误: unexpected '=', expecting ']'
+---------------------------------------------------------------
+[ 2017-07-24T11:11:11+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/
+[ error ] [4]语法错误: unexpected '=', expecting ']'
+---------------------------------------------------------------
+[ 2017-07-24T11:11:11+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/
+[ error ] [4]语法错误: unexpected '=', expecting ']'
+---------------------------------------------------------------
+[ 2017-07-24T11:11:22+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/
+[ error ] [4]语法错误: unexpected '=', expecting ']'
+---------------------------------------------------------------
+[ 2017-07-24T11:11:23+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/
+[ error ] [4]语法错误: unexpected '=', expecting ']'
+---------------------------------------------------------------
+[ 2017-07-24T11:11:28+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/
+[ error ] [4]语法错误: unexpected '=', expecting ']'
+---------------------------------------------------------------
+[ 2017-07-24T11:11:29+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/
+[ error ] [4]语法错误: unexpected '=', expecting ']'
+---------------------------------------------------------------
+[ 2017-07-24T11:11:29+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/
+[ error ] [4]语法错误: unexpected '=', expecting ']'
+---------------------------------------------------------------
+[ 2017-07-24T11:11:29+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/
+[ error ] [4]语法错误: unexpected '=', expecting ']'
+---------------------------------------------------------------
+[ 2017-07-24T15:26:55+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002265s ] mysql:dbname=bigbase;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goods` [ RunTime:0.019104s ]
+[ sql ] [ SQL ] SELECT * FROM `goods` [ RunTime:0.000279s ]
+[ error ] [1]Call to undefined method app\index\controller\Index::assign()
+---------------------------------------------------------------
+[ 2017-07-24T15:27:03+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001320s ] mysql:dbname=bigbase;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goods` [ RunTime:0.017219s ]
+[ sql ] [ SQL ] SELECT * FROM `goods` [ RunTime:0.000380s ]
+[ error ] [1]Call to undefined method app\index\controller\Index::assign()
+---------------------------------------------------------------
+[ 2017-07-24T15:27:04+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001556s ] mysql:dbname=bigbase;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goods` [ RunTime:0.018853s ]
+[ sql ] [ SQL ] SELECT * FROM `goods` [ RunTime:0.000282s ]
+[ error ] [1]Call to undefined method app\index\controller\Index::assign()
+---------------------------------------------------------------
+[ 2017-07-24T15:27:04+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001389s ] mysql:dbname=bigbase;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goods` [ RunTime:0.011691s ]
+[ sql ] [ SQL ] SELECT * FROM `goods` [ RunTime:0.000351s ]
+[ error ] [1]Call to undefined method app\index\controller\Index::assign()
+---------------------------------------------------------------
+[ 2017-07-24T15:27:15+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001321s ] mysql:dbname=bigbase;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goods` [ RunTime:0.020635s ]
+[ sql ] [ SQL ] SELECT * FROM `goods` [ RunTime:0.000471s ]
+---------------------------------------------------------------
+[ 2017-07-24T15:27:38+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/
+[ error ] [1]Class 'app\index\controller\Controller' not found
+---------------------------------------------------------------
+[ 2017-07-24T15:28:03+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011417s ] mysql:dbname=bigbase;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goods` [ RunTime:0.014936s ]
+[ sql ] [ SQL ] SELECT * FROM `goods` [ RunTime:0.000425s ]
+---------------------------------------------------------------
+[ 2017-07-24T15:28:48+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001886s ] mysql:dbname=bigbase;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goods` [ RunTime:0.016093s ]
+[ sql ] [ SQL ] SELECT * FROM `goods` [ RunTime:0.000445s ]
+---------------------------------------------------------------
+[ 2017-07-24T15:32:52+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001451s ] mysql:dbname=bigbase;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goods` [ RunTime:0.012705s ]
+[ sql ] [ SQL ] SELECT * FROM `goods` [ RunTime:0.000403s ]
+---------------------------------------------------------------
+[ 2017-07-24T15:33:12+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002172s ] mysql:dbname=bigbase;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goods` [ RunTime:0.017748s ]
+[ sql ] [ SQL ] SELECT * FROM `goods` [ RunTime:0.000343s ]
+---------------------------------------------------------------
+[ 2017-07-24T15:33:43+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011769s ] mysql:dbname=bigbase;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goods` [ RunTime:0.018633s ]
+[ sql ] [ SQL ] SELECT * FROM `goods` [ RunTime:0.000376s ]
+---------------------------------------------------------------
+[ 2017-07-24T15:33:53+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001260s ] mysql:dbname=bigbase;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goods` [ RunTime:0.016689s ]
+[ sql ] [ SQL ] SELECT * FROM `goods` [ RunTime:0.000396s ]
+---------------------------------------------------------------
+[ 2017-07-24T15:34:08+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001524s ] mysql:dbname=bigbase;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goods` [ RunTime:0.020657s ]
+[ sql ] [ SQL ] SELECT * FROM `goods` [ RunTime:0.000624s ]
+---------------------------------------------------------------
+[ 2017-07-24T15:34:16+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001261s ] mysql:dbname=bigbase;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goods` [ RunTime:0.016157s ]
+[ sql ] [ SQL ] SELECT * FROM `goods` [ RunTime:0.000379s ]
+---------------------------------------------------------------
+[ 2017-07-24T15:35:38+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001630s ] mysql:dbname=bigbase;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goods` [ RunTime:0.025363s ]
+[ sql ] [ SQL ] SELECT * FROM `goods` [ RunTime:0.000413s ]
+---------------------------------------------------------------
+[ 2017-07-24T15:49:58+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001756s ] mysql:dbname=bigbase;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goods` [ RunTime:0.017389s ]
+[ sql ] [ SQL ] SELECT * FROM `goods` [ RunTime:0.000505s ]
+---------------------------------------------------------------
+[ 2017-07-24T15:52:44+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/index/index/add.html?orderno=15413338151656837&logicno=518198748729&title=%E8%BF%90%E5%8A%A8%E5%A5%97%E8%A3%85%E5%A5%B3%E5%A4%8F2017%E4%BF%AE%E8%BA%AB%E6%98%BE%E7%98%A6%E7%9F%AD%E8%A2%96%E7%9F%AD%E8%A3%A4%E8%B7%91%E6%AD%A5%E6%9C%8D%E4%BC%91%E9%97%B2%E8%BF%90%E5%8A%A8%E4%B8%A4%E4%BB%B6%E5%A5%97+%E6%98%A5%E5%A4%8F%E5%AD%A3%E6%96%B0%E6%AC%BE%E5%A5%B3%E8%A3%85%E7%94%9C%E7%BE%8E%E5%B0%8F%E6%B8%85%E6%96%B0%E6%80%A7%E6%84%9F%E9%9C%B2%E8%82%A9%E4%BF%AE%E8%BA%AB%E4%BA%94%E5%88%86%E8%A2%96%E7%B3%BB%E5%B8%A6%E6%B0%94%E8%B4%A8%E8%BF%9E&saleprice=108&stockprice=108&poundage=2&freight=6
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001406s ] mysql:dbname=bigbase;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goods` [ RunTime:0.018493s ]
+[ sql ] [ SQL ] INSERT INTO `goods` (`orderno` , `logicno` , `title` , `saleprice` , `stockprice` , `poundage` , `freight` , `creattime` , `number`) VALUES ('15413338151656837' , '518198748729' , '运动套装女夏2017修身显瘦短袖短裤跑步服休闲运动两件套 春夏季新款女装甜美小清新性感露肩修身五分袖系带气质连' , 108 , 108 , 2 , 6 , '2017-07-24 15:52:44' , 1) [ RunTime:0.000533s ]
+---------------------------------------------------------------
+[ 2017-07-24T15:53:15+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/index/index/add.html?orderno=15413338151656837&logicno=518198748729&title=%E8%BF%90%E5%8A%A8%E5%A5%97%E8%A3%85%E5%A5%B3%E5%A4%8F2017%E4%BF%AE%E8%BA%AB%E6%98%BE%E7%98%A6%E7%9F%AD%E8%A2%96%E7%9F%AD%E8%A3%A4%E8%B7%91%E6%AD%A5%E6%9C%8D%E4%BC%91%E9%97%B2%E8%BF%90%E5%8A%A8%E4%B8%A4%E4%BB%B6%E5%A5%97+%E6%98%A5%E5%A4%8F%E5%AD%A3%E6%96%B0%E6%AC%BE%E5%A5%B3%E8%A3%85%E7%94%9C%E7%BE%8E%E5%B0%8F%E6%B8%85%E6%96%B0%E6%80%A7%E6%84%9F%E9%9C%B2%E8%82%A9%E4%BF%AE%E8%BA%AB%E4%BA%94%E5%88%86%E8%A2%96%E7%B3%BB%E5%B8%A6%E6%B0%94%E8%B4%A8%E8%BF%9E&saleprice=108&stockprice=108&poundage=2&freight=6
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013991s ] mysql:dbname=bigbase;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goods` [ RunTime:0.017186s ]
+[ sql ] [ SQL ] INSERT INTO `goods` (`orderno` , `logicno` , `title` , `saleprice` , `stockprice` , `poundage` , `freight` , `creattime` , `number`) VALUES ('15413338151656837' , '518198748729' , '运动套装女夏2017修身显瘦短袖短裤跑步服休闲运动两件套 春夏季新款女装甜美小清新性感露肩修身五分袖系带气质连' , 108 , 108 , 2 , 6 , '2017-07-24 15:53:15' , 1) [ RunTime:0.000255s ]
+---------------------------------------------------------------
+[ 2017-07-24T15:53:16+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001386s ] mysql:dbname=bigbase;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goods` [ RunTime:0.012850s ]
+[ sql ] [ SQL ] SELECT * FROM `goods` [ RunTime:0.001512s ]
+---------------------------------------------------------------
+[ 2017-07-24T16:16:13+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002677s ] mysql:dbname=bigbase;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goods` [ RunTime:0.017288s ]
+[ sql ] [ SQL ] SELECT * FROM `goods` [ RunTime:0.000401s ]
+---------------------------------------------------------------
+[ 2017-07-24T16:17:50+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/index/index/add.html?orderno=30555221101441916&logicno=885712536090317352&title=%E5%A5%97%E8%A3%852017%E5%A4%8F%E6%96%B0%E5%93%81%E9%9F%A9%E7%89%88%E6%97%B6%E5%B0%9A%E7%AB%B9%E5%8F%B6%E5%8D%B0%E8%8A%B1%E9%9B%AA%E7%BA%BA%E8%A1%AB%E9%AB%98%E8%85%B0%E7%9F%AD%E8%A3%A4%E4%B8%A4%E4%BB%B6%E5%A5%97&saleprice=58&stockprice=35&poundage=2&freight=6
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001287s ] mysql:dbname=bigbase;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goods` [ RunTime:0.017172s ]
+[ sql ] [ SQL ] INSERT INTO `goods` (`orderno` , `logicno` , `title` , `saleprice` , `stockprice` , `poundage` , `freight` , `creattime` , `number`) VALUES ('30555221101441916' , '885712536090317352' , '套装2017夏新品韩版时尚竹叶印花雪纺衫高腰短裤两件套' , 58 , 35 , 2 , 6 , '2017-07-24 16:17:50' , 1) [ RunTime:0.000388s ]
+---------------------------------------------------------------
+[ 2017-07-24T16:17:53+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002943s ] mysql:dbname=bigbase;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goods` [ RunTime:0.011884s ]
+[ sql ] [ SQL ] SELECT * FROM `goods` [ RunTime:0.000562s ]
+---------------------------------------------------------------
+[ 2017-07-24T16:19:45+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/index/index/add.html?orderno=30962321892364704&logicno=885723249850983019&title=%E7%91%9C%E4%BC%BD%E6%9C%8D%E8%BF%90%E5%8A%A8%E5%A5%97%E8%A3%85%E5%A5%B3%E8%B7%91%E6%AD%A5%E6%9C%8D%E4%BA%8C%E4%BB%B6%E5%A5%97%E6%98%BE%E7%98%A6%E5%81%A5%E8%BA%AB%E6%9C%8D%E5%A5%B3%E9%80%9F%E5%B9%B2%E8%83%8C%E5%BF%83%2B%E9%95%BF%E8%A3%A4&saleprice=49&stockprice=28&poundage=2&freight=6
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001366s ] mysql:dbname=bigbase;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goods` [ RunTime:0.023320s ]
+[ sql ] [ SQL ] INSERT INTO `goods` (`orderno` , `logicno` , `title` , `saleprice` , `stockprice` , `poundage` , `freight` , `creattime` , `number`) VALUES ('30962321892364704' , '885723249850983019' , '瑜伽服运动套装女跑步服二件套显瘦健身服女速干背心+长裤' , 49 , 28 , 2 , 6 , '2017-07-24 16:19:44' , 1) [ RunTime:0.000411s ]
+---------------------------------------------------------------
+[ 2017-07-24T16:19:48+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001293s ] mysql:dbname=bigbase;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goods` [ RunTime:0.016144s ]
+[ sql ] [ SQL ] SELECT * FROM `goods` [ RunTime:0.000432s ]
+---------------------------------------------------------------
+[ 2017-07-24T16:21:32+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001294s ] mysql:dbname=bigbase;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goods` [ RunTime:0.019922s ]
+[ sql ] [ SQL ] SELECT * FROM `goods` [ RunTime:0.000371s ]
+---------------------------------------------------------------
+[ 2017-07-24T16:22:41+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/index/index/add.html?orderno=39186551560908763&logicno=3334635888062&title=%E8%BF%90%E5%8A%A8%E5%A5%97%E8%A3%85%E5%A5%B3%E5%A4%8F2017%E6%96%B0%E6%AC%BE%E6%BD%AE%E9%9F%A9%E7%89%88%E6%97%B6%E5%B0%9A%E7%9F%AD%E8%A2%96%E7%9F%AD%E8%A3%99%E8%B7%91%E6%AD%A5%E7%BA%AF%E6%A3%89%E4%BC%91%E9%97%B2%E5%A4%8F%E8%A3%85%E4%B8%A4%E4%BB%B6%E5%A5%97&saleprice=39&stockprice=25&poundage=2&freight=6
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002735s ] mysql:dbname=bigbase;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goods` [ RunTime:0.017863s ]
+[ sql ] [ SQL ] INSERT INTO `goods` (`orderno` , `logicno` , `title` , `saleprice` , `stockprice` , `poundage` , `freight` , `creattime` , `number`) VALUES ('39186551560908763' , '3334635888062' , '运动套装女夏2017新款潮韩版时尚短袖短裙跑步纯棉休闲夏装两件套' , 39 , 25 , 2 , 6 , '2017-07-24 16:22:41' , 1) [ RunTime:0.000366s ]
+---------------------------------------------------------------
+[ 2017-07-24T16:22:44+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001348s ] mysql:dbname=bigbase;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goods` [ RunTime:0.017611s ]
+[ sql ] [ SQL ] SELECT * FROM `goods` [ RunTime:0.000294s ]
+---------------------------------------------------------------
+[ 2017-07-24T16:24:38+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011831s ] mysql:dbname=bigbase;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goods` [ RunTime:0.015863s ]
+[ sql ] [ SQL ] SELECT * FROM `goods` [ RunTime:0.000462s ]
+---------------------------------------------------------------
+[ 2017-07-24T16:25:03+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001509s ] mysql:dbname=bigbase;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goods` [ RunTime:0.016402s ]
+[ sql ] [ SQL ] SELECT * FROM `goods` [ RunTime:0.000473s ]
+---------------------------------------------------------------
+[ 2017-07-24T16:25:23+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001533s ] mysql:dbname=bigbase;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goods` [ RunTime:0.017460s ]
+[ sql ] [ SQL ] SELECT * FROM `goods` [ RunTime:0.000456s ]
+---------------------------------------------------------------
+[ 2017-07-24T16:27:19+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003035s ] mysql:dbname=bigbase;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goods` [ RunTime:0.022603s ]
+[ sql ] [ SQL ] SELECT * FROM `goods` [ RunTime:0.000443s ]
+---------------------------------------------------------------
+[ 2017-07-24T16:28:06+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001337s ] mysql:dbname=bigbase;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goods` [ RunTime:0.020379s ]
+[ sql ] [ SQL ] SELECT * FROM `goods` [ RunTime:0.000354s ]
+---------------------------------------------------------------
+[ 2017-07-24T16:28:11+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001964s ] mysql:dbname=bigbase;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goods` [ RunTime:0.020219s ]
+[ sql ] [ SQL ] SELECT * FROM `goods` [ RunTime:0.000322s ]
+---------------------------------------------------------------
+[ 2017-07-24T16:28:58+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001323s ] mysql:dbname=bigbase;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goods` [ RunTime:0.024833s ]
+[ sql ] [ SQL ] SELECT * FROM `goods` [ RunTime:0.000414s ]
+[ error ] [1]Call to undefined function sum()
+---------------------------------------------------------------
+[ 2017-07-24T16:29:33+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001523s ] mysql:dbname=bigbase;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goods` [ RunTime:0.020228s ]
+[ sql ] [ SQL ] SELECT * FROM `goods` [ RunTime:0.000378s ]
+[ error ] [8]未定义数组索引: saleprice
+---------------------------------------------------------------
+[ 2017-07-24T16:29:41+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001308s ] mysql:dbname=bigbase;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goods` [ RunTime:0.018071s ]
+[ sql ] [ SQL ] SELECT * FROM `goods` [ RunTime:0.000544s ]
+---------------------------------------------------------------
+[ 2017-07-24T16:32:38+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002311s ] mysql:dbname=bigbase;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goods` [ RunTime:0.017774s ]
+[ sql ] [ SQL ] SELECT * FROM `goods` [ RunTime:0.000405s ]
+[ sql ] [ SQL ] SELECT SUM(saleprice) AS tp_sum FROM `goods` LIMIT 1 [ RunTime:0.000329s ]
+---------------------------------------------------------------
+[ 2017-07-24T16:32:39+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001469s ] mysql:dbname=bigbase;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goods` [ RunTime:0.023631s ]
+[ sql ] [ SQL ] SELECT * FROM `goods` [ RunTime:0.000344s ]
+[ sql ] [ SQL ] SELECT SUM(saleprice) AS tp_sum FROM `goods` LIMIT 1 [ RunTime:0.000234s ]
+---------------------------------------------------------------
+[ 2017-07-24T16:32:56+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001237s ] mysql:dbname=bigbase;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goods` [ RunTime:0.016300s ]
+[ sql ] [ SQL ] SELECT * FROM `goods` [ RunTime:0.000555s ]
+[ sql ] [ SQL ] SELECT SUM(saleprice) AS tp_sum FROM `goods` LIMIT 1 [ RunTime:0.000325s ]

@@ -1,0 +1,1605 @@
+---------------------------------------------------------------
+[ 2017-08-26T11:07:45+08:00 ] 0.0.0.0 127.0.0.1 HEAD /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008800s ] mysql:dbname=bigbase;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goods` [ RunTime:0.023454s ]
+[ sql ] [ SQL ] SELECT * FROM `goods` [ RunTime:0.000827s ]
+[ sql ] [ SQL ] SELECT SUM(saleprice) AS tp_sum FROM `goods` LIMIT 1 [ RunTime:0.000387s ]
+---------------------------------------------------------------
+[ 2017-08-26T15:09:53+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006515s ] mysql:dbname=bigbase;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goods` [ RunTime:0.016913s ]
+[ sql ] [ SQL ] SELECT * FROM `goods` [ RunTime:0.000570s ]
+[ sql ] [ SQL ] SELECT SUM(saleprice) AS tp_sum FROM `goods` LIMIT 1 [ RunTime:0.000476s ]
+---------------------------------------------------------------
+[ 2017-08-26T15:24:03+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ error ] [1]Uncaught exception 'think\exception\ErrorException' with message 'Argument 1 passed to app\lib\exception\ExceptionHandler::render() must be an instance of think\Exception, instance of think\exception\RouteNotFoundException given, called in C:\Users\cheyod\Desktop\Home\WWW\bigbase\thinkphp\library\think\Error.php on line 47 and defined' in C:\Users\cheyod\Desktop\Home\WWW\bigbase\application\lib\exception\ExceptionHandler.php:9
+Stack trace:
+#0 C:\Users\cheyod\Desktop\Home\WWW\bigbase\application\lib\exception\ExceptionHandler.php(9): think\Error::appError(4096, 'Argument 1 pass...', 'C:\\Users\\cheyod...', 9, Array)
+#1 C:\Users\cheyod\Desktop\Home\WWW\bigbase\thinkphp\library\think\Error.php(47): app\lib\exception\ExceptionHandler->render(Object(think\exception\RouteNotFoundException))
+#2 [internal function]: think\Error::appException(Object(think\exception\RouteNotFoundException))
+#3 {main}
+  thrown
+---------------------------------------------------------------
+[ 2017-08-26T15:28:35+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/banner
+[ error ] [1]Uncaught exception 'think\exception\ErrorException' with message 'Argument 1 passed to app\lib\exception\ExceptionHandler::render() must be an instance of think\Exception, instance of think\exception\RouteNotFoundException given, called in C:\Users\cheyod\Desktop\Home\WWW\bigbase\thinkphp\library\think\Error.php on line 47 and defined' in C:\Users\cheyod\Desktop\Home\WWW\bigbase\application\lib\exception\ExceptionHandler.php:9
+Stack trace:
+#0 C:\Users\cheyod\Desktop\Home\WWW\bigbase\application\lib\exception\ExceptionHandler.php(9): think\Error::appError(4096, 'Argument 1 pass...', 'C:\\Users\\cheyod...', 9, Array)
+#1 C:\Users\cheyod\Desktop\Home\WWW\bigbase\thinkphp\library\think\Error.php(47): app\lib\exception\ExceptionHandler->render(Object(think\exception\RouteNotFoundException))
+#2 [internal function]: think\Error::appException(Object(think\exception\RouteNotFoundException))
+#3 {main}
+  thrown
+---------------------------------------------------------------
+[ 2017-08-26T15:29:37+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/banner
+[ error ] [1]Uncaught exception 'think\exception\ErrorException' with message 'Argument 1 passed to app\lib\exception\ExceptionHandler::render() must be an instance of think\Exception, instance of think\exception\RouteNotFoundException given, called in C:\Users\cheyod\Desktop\Home\WWW\bigbase\thinkphp\library\think\Error.php on line 47 and defined' in C:\Users\cheyod\Desktop\Home\WWW\bigbase\application\lib\exception\ExceptionHandler.php:9
+Stack trace:
+#0 C:\Users\cheyod\Desktop\Home\WWW\bigbase\application\lib\exception\ExceptionHandler.php(9): think\Error::appError(4096, 'Argument 1 pass...', 'C:\\Users\\cheyod...', 9, Array)
+#1 C:\Users\cheyod\Desktop\Home\WWW\bigbase\thinkphp\library\think\Error.php(47): app\lib\exception\ExceptionHandler->render(Object(think\exception\RouteNotFoundException))
+#2 [internal function]: think\Error::appException(Object(think\exception\RouteNotFoundException))
+#3 {main}
+  thrown
+---------------------------------------------------------------
+[ 2017-08-26T15:30:09+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/banner
+[ error ] [1]Uncaught exception 'think\exception\ErrorException' with message 'Argument 1 passed to app\lib\exception\ExceptionHandler::render() must be an instance of think\Exception, instance of think\exception\RouteNotFoundException given, called in C:\Users\cheyod\Desktop\Home\WWW\bigbase\thinkphp\library\think\Error.php on line 47 and defined' in C:\Users\cheyod\Desktop\Home\WWW\bigbase\application\lib\exception\ExceptionHandler.php:9
+Stack trace:
+#0 C:\Users\cheyod\Desktop\Home\WWW\bigbase\application\lib\exception\ExceptionHandler.php(9): think\Error::appError(4096, 'Argument 1 pass...', 'C:\\Users\\cheyod...', 9, Array)
+#1 C:\Users\cheyod\Desktop\Home\WWW\bigbase\thinkphp\library\think\Error.php(47): app\lib\exception\ExceptionHandler->render(Object(think\exception\RouteNotFoundException))
+#2 [internal function]: think\Error::appException(Object(think\exception\RouteNotFoundException))
+#3 {main}
+  thrown
+---------------------------------------------------------------
+[ 2017-08-26T15:30:46+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/banner
+[ info ] bigbase.com/index.php/api/v1/banner [运行时间：0.030860s][吞吐率：32.40req/s] [内存消耗：1,182.21kb] [文件加载：44]
+[ info ] [ LANG ] C:\Users\cheyod\Desktop\Home\WWW\bigbase\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+[ error ] [1]Uncaught exception 'think\exception\ErrorException' with message 'Argument 1 passed to app\lib\exception\ExceptionHandler::render() must be an instance of think\Exception, instance of think\exception\RouteNotFoundException given, called in C:\Users\cheyod\Desktop\Home\WWW\bigbase\thinkphp\library\think\Error.php on line 47 and defined' in C:\Users\cheyod\Desktop\Home\WWW\bigbase\application\lib\exception\ExceptionHandler.php:9
+Stack trace:
+#0 C:\Users\cheyod\Desktop\Home\WWW\bigbase\application\lib\exception\ExceptionHandler.php(9): think\Error::appError(4096, 'Argument 1 pass...', 'C:\\Users\\cheyod...', 9, Array)
+#1 C:\Users\cheyod\Desktop\Home\WWW\bigbase\thinkphp\library\think\Error.php(47): app\lib\exception\ExceptionHandler->render(Object(think\exception\RouteNotFoundException))
+#2 [internal function]: think\Error::appException(Object(think\exception\RouteNotFoundException))
+#3 {main}
+  thrown[C:\Users\cheyod\Desktop\Home\WWW\bigbase\application\lib\exception\ExceptionHandler.php:9]
+---------------------------------------------------------------
+[ 2017-08-26T15:30:48+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/banner
+[ info ] bigbase.com/index.php/api/v1/banner [运行时间：0.035695s][吞吐率：28.02req/s] [内存消耗：1,182.21kb] [文件加载：44]
+[ info ] [ LANG ] C:\Users\cheyod\Desktop\Home\WWW\bigbase\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+[ error ] [1]Uncaught exception 'think\exception\ErrorException' with message 'Argument 1 passed to app\lib\exception\ExceptionHandler::render() must be an instance of think\Exception, instance of think\exception\RouteNotFoundException given, called in C:\Users\cheyod\Desktop\Home\WWW\bigbase\thinkphp\library\think\Error.php on line 47 and defined' in C:\Users\cheyod\Desktop\Home\WWW\bigbase\application\lib\exception\ExceptionHandler.php:9
+Stack trace:
+#0 C:\Users\cheyod\Desktop\Home\WWW\bigbase\application\lib\exception\ExceptionHandler.php(9): think\Error::appError(4096, 'Argument 1 pass...', 'C:\\Users\\cheyod...', 9, Array)
+#1 C:\Users\cheyod\Desktop\Home\WWW\bigbase\thinkphp\library\think\Error.php(47): app\lib\exception\ExceptionHandler->render(Object(think\exception\RouteNotFoundException))
+#2 [internal function]: think\Error::appException(Object(think\exception\RouteNotFoundException))
+#3 {main}
+  thrown[C:\Users\cheyod\Desktop\Home\WWW\bigbase\application\lib\exception\ExceptionHandler.php:9]
+---------------------------------------------------------------
+[ 2017-08-26T15:30:48+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/banner
+[ info ] bigbase.com/index.php/api/v1/banner [运行时间：0.027698s][吞吐率：36.10req/s] [内存消耗：1,182.21kb] [文件加载：44]
+[ info ] [ LANG ] C:\Users\cheyod\Desktop\Home\WWW\bigbase\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+[ error ] [1]Uncaught exception 'think\exception\ErrorException' with message 'Argument 1 passed to app\lib\exception\ExceptionHandler::render() must be an instance of think\Exception, instance of think\exception\RouteNotFoundException given, called in C:\Users\cheyod\Desktop\Home\WWW\bigbase\thinkphp\library\think\Error.php on line 47 and defined' in C:\Users\cheyod\Desktop\Home\WWW\bigbase\application\lib\exception\ExceptionHandler.php:9
+Stack trace:
+#0 C:\Users\cheyod\Desktop\Home\WWW\bigbase\application\lib\exception\ExceptionHandler.php(9): think\Error::appError(4096, 'Argument 1 pass...', 'C:\\Users\\cheyod...', 9, Array)
+#1 C:\Users\cheyod\Desktop\Home\WWW\bigbase\thinkphp\library\think\Error.php(47): app\lib\exception\ExceptionHandler->render(Object(think\exception\RouteNotFoundException))
+#2 [internal function]: think\Error::appException(Object(think\exception\RouteNotFoundException))
+#3 {main}
+  thrown[C:\Users\cheyod\Desktop\Home\WWW\bigbase\application\lib\exception\ExceptionHandler.php:9]
+---------------------------------------------------------------
+[ 2017-08-26T15:30:49+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/banner
+[ info ] bigbase.com/index.php/api/v1/banner [运行时间：0.025592s][吞吐率：39.07req/s] [内存消耗：1,182.21kb] [文件加载：44]
+[ info ] [ LANG ] C:\Users\cheyod\Desktop\Home\WWW\bigbase\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+[ error ] [1]Uncaught exception 'think\exception\ErrorException' with message 'Argument 1 passed to app\lib\exception\ExceptionHandler::render() must be an instance of think\Exception, instance of think\exception\RouteNotFoundException given, called in C:\Users\cheyod\Desktop\Home\WWW\bigbase\thinkphp\library\think\Error.php on line 47 and defined' in C:\Users\cheyod\Desktop\Home\WWW\bigbase\application\lib\exception\ExceptionHandler.php:9
+Stack trace:
+#0 C:\Users\cheyod\Desktop\Home\WWW\bigbase\application\lib\exception\ExceptionHandler.php(9): think\Error::appError(4096, 'Argument 1 pass...', 'C:\\Users\\cheyod...', 9, Array)
+#1 C:\Users\cheyod\Desktop\Home\WWW\bigbase\thinkphp\library\think\Error.php(47): app\lib\exception\ExceptionHandler->render(Object(think\exception\RouteNotFoundException))
+#2 [internal function]: think\Error::appException(Object(think\exception\RouteNotFoundException))
+#3 {main}
+  thrown[C:\Users\cheyod\Desktop\Home\WWW\bigbase\application\lib\exception\ExceptionHandler.php:9]
+---------------------------------------------------------------
+[ 2017-08-26T15:30:54+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/banner
+[ info ] bigbase.com/index.php/api/v1/banner [运行时间：0.030088s][吞吐率：33.24req/s] [内存消耗：1,182.21kb] [文件加载：44]
+[ info ] [ LANG ] C:\Users\cheyod\Desktop\Home\WWW\bigbase\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+[ error ] [1]Uncaught exception 'think\exception\ErrorException' with message 'Argument 1 passed to app\lib\exception\ExceptionHandler::render() must be an instance of think\Exception, instance of think\exception\RouteNotFoundException given, called in C:\Users\cheyod\Desktop\Home\WWW\bigbase\thinkphp\library\think\Error.php on line 47 and defined' in C:\Users\cheyod\Desktop\Home\WWW\bigbase\application\lib\exception\ExceptionHandler.php:9
+Stack trace:
+#0 C:\Users\cheyod\Desktop\Home\WWW\bigbase\application\lib\exception\ExceptionHandler.php(9): think\Error::appError(4096, 'Argument 1 pass...', 'C:\\Users\\cheyod...', 9, Array)
+#1 C:\Users\cheyod\Desktop\Home\WWW\bigbase\thinkphp\library\think\Error.php(47): app\lib\exception\ExceptionHandler->render(Object(think\exception\RouteNotFoundException))
+#2 [internal function]: think\Error::appException(Object(think\exception\RouteNotFoundException))
+#3 {main}
+  thrown[C:\Users\cheyod\Desktop\Home\WWW\bigbase\application\lib\exception\ExceptionHandler.php:9]
+---------------------------------------------------------------
+[ 2017-08-26T15:31:13+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/banner
+[ info ] bigbase.com/index.php/api/v1/banner [运行时间：0.025490s][吞吐率：39.23req/s] [内存消耗：1,223.83kb] [文件加载：46]
+[ info ] [ LANG ] C:\Users\cheyod\Desktop\Home\WWW\bigbase\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+[ error ] [1]Uncaught exception 'think\exception\ErrorException' with message 'Argument 1 passed to app\lib\exception\ExceptionHandler::render() must be an instance of think\Exception, instance of think\exception\RouteNotFoundException given, called in C:\Users\cheyod\Desktop\Home\WWW\bigbase\thinkphp\library\think\Error.php on line 47 and defined' in C:\Users\cheyod\Desktop\Home\WWW\bigbase\application\lib\exception\ExceptionHandler.php:9
+Stack trace:
+#0 C:\Users\cheyod\Desktop\Home\WWW\bigbase\application\lib\exception\ExceptionHandler.php(9): think\Error::appError(4096, 'Argument 1 pass...', 'C:\\Users\\cheyod...', 9, Array)
+#1 C:\Users\cheyod\Desktop\Home\WWW\bigbase\thinkphp\library\think\Error.php(47): app\lib\exception\ExceptionHandler->render(Object(think\exception\RouteNotFoundException))
+#2 [internal function]: think\Error::appException(Object(think\exception\RouteNotFoundException))
+#3 {main}
+  thrown[C:\Users\cheyod\Desktop\Home\WWW\bigbase\application\lib\exception\ExceptionHandler.php:9]
+---------------------------------------------------------------
+[ 2017-08-26T15:31:14+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/banner
+[ info ] bigbase.com/index.php/api/v1/banner [运行时间：0.032613s][吞吐率：30.66req/s] [内存消耗：1,223.83kb] [文件加载：46]
+[ info ] [ LANG ] C:\Users\cheyod\Desktop\Home\WWW\bigbase\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+[ error ] [1]Uncaught exception 'think\exception\ErrorException' with message 'Argument 1 passed to app\lib\exception\ExceptionHandler::render() must be an instance of think\Exception, instance of think\exception\RouteNotFoundException given, called in C:\Users\cheyod\Desktop\Home\WWW\bigbase\thinkphp\library\think\Error.php on line 47 and defined' in C:\Users\cheyod\Desktop\Home\WWW\bigbase\application\lib\exception\ExceptionHandler.php:9
+Stack trace:
+#0 C:\Users\cheyod\Desktop\Home\WWW\bigbase\application\lib\exception\ExceptionHandler.php(9): think\Error::appError(4096, 'Argument 1 pass...', 'C:\\Users\\cheyod...', 9, Array)
+#1 C:\Users\cheyod\Desktop\Home\WWW\bigbase\thinkphp\library\think\Error.php(47): app\lib\exception\ExceptionHandler->render(Object(think\exception\RouteNotFoundException))
+#2 [internal function]: think\Error::appException(Object(think\exception\RouteNotFoundException))
+#3 {main}
+  thrown[C:\Users\cheyod\Desktop\Home\WWW\bigbase\application\lib\exception\ExceptionHandler.php:9]
+---------------------------------------------------------------
+[ 2017-08-26T15:31:14+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/banner
+[ info ] bigbase.com/index.php/api/v1/banner [运行时间：0.027155s][吞吐率：36.83req/s] [内存消耗：1,223.83kb] [文件加载：46]
+[ info ] [ LANG ] C:\Users\cheyod\Desktop\Home\WWW\bigbase\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+[ error ] [1]Uncaught exception 'think\exception\ErrorException' with message 'Argument 1 passed to app\lib\exception\ExceptionHandler::render() must be an instance of think\Exception, instance of think\exception\RouteNotFoundException given, called in C:\Users\cheyod\Desktop\Home\WWW\bigbase\thinkphp\library\think\Error.php on line 47 and defined' in C:\Users\cheyod\Desktop\Home\WWW\bigbase\application\lib\exception\ExceptionHandler.php:9
+Stack trace:
+#0 C:\Users\cheyod\Desktop\Home\WWW\bigbase\application\lib\exception\ExceptionHandler.php(9): think\Error::appError(4096, 'Argument 1 pass...', 'C:\\Users\\cheyod...', 9, Array)
+#1 C:\Users\cheyod\Desktop\Home\WWW\bigbase\thinkphp\library\think\Error.php(47): app\lib\exception\ExceptionHandler->render(Object(think\exception\RouteNotFoundException))
+#2 [internal function]: think\Error::appException(Object(think\exception\RouteNotFoundException))
+#3 {main}
+  thrown[C:\Users\cheyod\Desktop\Home\WWW\bigbase\application\lib\exception\ExceptionHandler.php:9]
+---------------------------------------------------------------
+[ 2017-08-26T15:31:17+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/banner
+[ info ] bigbase.com/index.php/api/v1/banner [运行时间：0.033099s][吞吐率：30.21req/s] [内存消耗：1,182.21kb] [文件加载：44]
+[ info ] [ LANG ] C:\Users\cheyod\Desktop\Home\WWW\bigbase\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+[ error ] [1]Uncaught exception 'think\exception\ErrorException' with message 'Argument 1 passed to app\lib\exception\ExceptionHandler::render() must be an instance of think\Exception, instance of think\exception\RouteNotFoundException given, called in C:\Users\cheyod\Desktop\Home\WWW\bigbase\thinkphp\library\think\Error.php on line 47 and defined' in C:\Users\cheyod\Desktop\Home\WWW\bigbase\application\lib\exception\ExceptionHandler.php:9
+Stack trace:
+#0 C:\Users\cheyod\Desktop\Home\WWW\bigbase\application\lib\exception\ExceptionHandler.php(9): think\Error::appError(4096, 'Argument 1 pass...', 'C:\\Users\\cheyod...', 9, Array)
+#1 C:\Users\cheyod\Desktop\Home\WWW\bigbase\thinkphp\library\think\Error.php(47): app\lib\exception\ExceptionHandler->render(Object(think\exception\RouteNotFoundException))
+#2 [internal function]: think\Error::appException(Object(think\exception\RouteNotFoundException))
+#3 {main}
+  thrown[C:\Users\cheyod\Desktop\Home\WWW\bigbase\application\lib\exception\ExceptionHandler.php:9]
+---------------------------------------------------------------
+[ 2017-08-26T15:32:33+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/banner
+[ info ] bigbase.com/index.php/api/v1/banner [运行时间：0.024084s][吞吐率：41.52req/s] [内存消耗：1,182.21kb] [文件加载：44]
+[ info ] [ LANG ] C:\Users\cheyod\Desktop\Home\WWW\bigbase\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+[ error ] [1]Uncaught exception 'think\exception\ErrorException' with message 'Argument 1 passed to app\lib\exception\ExceptionHandler::render() must be an instance of think\Exception, instance of think\exception\RouteNotFoundException given, called in C:\Users\cheyod\Desktop\Home\WWW\bigbase\thinkphp\library\think\Error.php on line 47 and defined' in C:\Users\cheyod\Desktop\Home\WWW\bigbase\application\lib\exception\ExceptionHandler.php:9
+Stack trace:
+#0 C:\Users\cheyod\Desktop\Home\WWW\bigbase\application\lib\exception\ExceptionHandler.php(9): think\Error::appError(4096, 'Argument 1 pass...', 'C:\\Users\\cheyod...', 9, Array)
+#1 C:\Users\cheyod\Desktop\Home\WWW\bigbase\thinkphp\library\think\Error.php(47): app\lib\exception\ExceptionHandler->render(Object(think\exception\RouteNotFoundException))
+#2 [internal function]: think\Error::appException(Object(think\exception\RouteNotFoundException))
+#3 {main}
+  thrown[C:\Users\cheyod\Desktop\Home\WWW\bigbase\application\lib\exception\ExceptionHandler.php:9]
+---------------------------------------------------------------
+[ 2017-08-26T15:43:41+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/banner
+[ info ] bigbase.com/index.php/api/v1/banner [运行时间：0.031817s][吞吐率：31.43req/s] [内存消耗：1,184.38kb] [文件加载：44]
+[ info ] [ LANG ] C:\Users\cheyod\Desktop\Home\WWW\bigbase\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+[ error ] [1]Uncaught exception 'think\exception\ErrorException' with message 'Argument 1 passed to app\lib\exception\ExceptionHandler::render() must be an instance of think\Exception, instance of think\exception\RouteNotFoundException given, called in C:\Users\cheyod\Desktop\Home\WWW\bigbase\thinkphp\library\think\Error.php on line 47 and defined' in C:\Users\cheyod\Desktop\Home\WWW\bigbase\application\lib\exception\ExceptionHandler.php:13
+Stack trace:
+#0 C:\Users\cheyod\Desktop\Home\WWW\bigbase\application\lib\exception\ExceptionHandler.php(13): think\Error::appError(4096, 'Argument 1 pass...', 'C:\\Users\\cheyod...', 13, Array)
+#1 C:\Users\cheyod\Desktop\Home\WWW\bigbase\thinkphp\library\think\Error.php(47): app\lib\exception\ExceptionHandler->render(Object(think\exception\RouteNotFoundException))
+#2 [internal function]: think\Error::appException(Object(think\exception\RouteNotFoundException))
+#3 {main}
+  thrown[C:\Users\cheyod\Desktop\Home\WWW\bigbase\application\lib\exception\ExceptionHandler.php:13]
+---------------------------------------------------------------
+[ 2017-08-26T15:44:35+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/product
+[ info ] bigbase.com/index.php/api/v1/product [运行时间：0.034742s][吞吐率：28.78req/s] [内存消耗：1,133.59kb] [文件加载：43]
+[ info ] [ LANG ] C:\Users\cheyod\Desktop\Home\WWW\bigbase\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'selProduct',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__tad=1500863055.3428650; pgv_pvi=4685452288',
+  'connection' => 'Keep-Alive',
+  'host' => 'bigbase.com',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36 Edge/15.15063',
+  'accept-language' => 'zh-Hans-CN,zh-Hans;q=0.5',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Product->selProduct[ C:\Users\cheyod\Desktop\Home\WWW\bigbase\application\api\controller\v1\Product.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-26T15:44:58+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/product
+[ info ] bigbase.com/index.php/api/v1/product [运行时间：0.026382s][吞吐率：37.90req/s] [内存消耗：1,164.86kb] [文件加载：45]
+[ info ] [ LANG ] C:\Users\cheyod\Desktop\Home\WWW\bigbase\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'selProduct',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__tad=1500863055.3428650; pgv_pvi=4685452288',
+  'connection' => 'Keep-Alive',
+  'host' => 'bigbase.com',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36 Edge/15.15063',
+  'accept-language' => 'zh-Hans-CN,zh-Hans;q=0.5',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Product->selProduct[ C:\Users\cheyod\Desktop\Home\WWW\bigbase\application\api\controller\v1\Product.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]Division by zero[C:\Users\cheyod\Desktop\Home\WWW\bigbase\application\api\controller\v1\Product.php:7]
+---------------------------------------------------------------
+[ 2017-08-26T15:48:32+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/product
+[ info ] bigbase.com/index.php/api/v1/product [运行时间：0.030000s][吞吐率：33.33req/s] [内存消耗：1,174.32kb] [文件加载：45]
+[ info ] [ LANG ] C:\Users\cheyod\Desktop\Home\WWW\bigbase\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'selProduct',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__tad=1500863055.3428650; pgv_pvi=4685452288',
+  'connection' => 'Keep-Alive',
+  'host' => 'bigbase.com',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36 Edge/15.15063',
+  'accept-language' => 'zh-Hans-CN,zh-Hans;q=0.5',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Product->selProduct[ C:\Users\cheyod\Desktop\Home\WWW\bigbase\application\api\controller\v1\Product.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\api\controller\v1\ProductException' not found[C:\Users\cheyod\Desktop\Home\WWW\bigbase\application\api\controller\v1\Product.php:8]
+---------------------------------------------------------------
+[ 2017-08-26T15:50:10+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/product
+[ info ] bigbase.com/index.php/api/v1/product [运行时间：0.024585s][吞吐率：40.68req/s] [内存消耗：1,174.32kb] [文件加载：45]
+[ info ] [ LANG ] C:\Users\cheyod\Desktop\Home\WWW\bigbase\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'selProduct',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__tad=1500863055.3428650; pgv_pvi=4685452288',
+  'connection' => 'Keep-Alive',
+  'host' => 'bigbase.com',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36 Edge/15.15063',
+  'accept-language' => 'zh-Hans-CN,zh-Hans;q=0.5',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Product->selProduct[ C:\Users\cheyod\Desktop\Home\WWW\bigbase\application\api\controller\v1\Product.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\api\controller\v1\ProductException' not found[C:\Users\cheyod\Desktop\Home\WWW\bigbase\application\api\controller\v1\Product.php:8]
+---------------------------------------------------------------
+[ 2017-08-26T15:50:11+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/product
+[ info ] bigbase.com/index.php/api/v1/product [运行时间：0.026389s][吞吐率：37.89req/s] [内存消耗：1,174.32kb] [文件加载：45]
+[ info ] [ LANG ] C:\Users\cheyod\Desktop\Home\WWW\bigbase\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'selProduct',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__tad=1500863055.3428650; pgv_pvi=4685452288',
+  'connection' => 'Keep-Alive',
+  'host' => 'bigbase.com',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36 Edge/15.15063',
+  'accept-language' => 'zh-Hans-CN,zh-Hans;q=0.5',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Product->selProduct[ C:\Users\cheyod\Desktop\Home\WWW\bigbase\application\api\controller\v1\Product.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\api\controller\v1\ProductException' not found[C:\Users\cheyod\Desktop\Home\WWW\bigbase\application\api\controller\v1\Product.php:8]
+---------------------------------------------------------------
+[ 2017-08-26T15:50:12+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/product
+[ info ] bigbase.com/index.php/api/v1/product [运行时间：0.024485s][吞吐率：40.84req/s] [内存消耗：1,174.32kb] [文件加载：45]
+[ info ] [ LANG ] C:\Users\cheyod\Desktop\Home\WWW\bigbase\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'selProduct',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__tad=1500863055.3428650; pgv_pvi=4685452288',
+  'connection' => 'Keep-Alive',
+  'host' => 'bigbase.com',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36 Edge/15.15063',
+  'accept-language' => 'zh-Hans-CN,zh-Hans;q=0.5',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Product->selProduct[ C:\Users\cheyod\Desktop\Home\WWW\bigbase\application\api\controller\v1\Product.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\api\controller\v1\ProductException' not found[C:\Users\cheyod\Desktop\Home\WWW\bigbase\application\api\controller\v1\Product.php:8]
+---------------------------------------------------------------
+[ 2017-08-26T15:52:15+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/product
+[ info ] bigbase.com/index.php/api/v1/product [运行时间：0.035445s][吞吐率：28.21req/s] [内存消耗：1,174.32kb] [文件加载：45]
+[ info ] [ LANG ] C:\Users\cheyod\Desktop\Home\WWW\bigbase\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'selProduct',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__tad=1500863055.3428650; pgv_pvi=4685452288',
+  'connection' => 'Keep-Alive',
+  'host' => 'bigbase.com',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36 Edge/15.15063',
+  'accept-language' => 'zh-Hans-CN,zh-Hans;q=0.5',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Product->selProduct[ C:\Users\cheyod\Desktop\Home\WWW\bigbase\application\api\controller\v1\Product.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\api\controller\v1\ProductException' not found[C:\Users\cheyod\Desktop\Home\WWW\bigbase\application\api\controller\v1\Product.php:8]
+---------------------------------------------------------------
+[ 2017-08-26T15:52:16+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/product
+[ info ] bigbase.com/index.php/api/v1/product [运行时间：0.024629s][吞吐率：40.60req/s] [内存消耗：1,174.32kb] [文件加载：45]
+[ info ] [ LANG ] C:\Users\cheyod\Desktop\Home\WWW\bigbase\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'selProduct',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__tad=1500863055.3428650; pgv_pvi=4685452288',
+  'connection' => 'Keep-Alive',
+  'host' => 'bigbase.com',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36 Edge/15.15063',
+  'accept-language' => 'zh-Hans-CN,zh-Hans;q=0.5',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Product->selProduct[ C:\Users\cheyod\Desktop\Home\WWW\bigbase\application\api\controller\v1\Product.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\api\controller\v1\ProductException' not found[C:\Users\cheyod\Desktop\Home\WWW\bigbase\application\api\controller\v1\Product.php:8]
+---------------------------------------------------------------
+[ 2017-08-26T15:52:16+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/product
+[ info ] bigbase.com/index.php/api/v1/product [运行时间：0.027194s][吞吐率：36.77req/s] [内存消耗：1,174.32kb] [文件加载：45]
+[ info ] [ LANG ] C:\Users\cheyod\Desktop\Home\WWW\bigbase\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'selProduct',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__tad=1500863055.3428650; pgv_pvi=4685452288',
+  'connection' => 'Keep-Alive',
+  'host' => 'bigbase.com',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36 Edge/15.15063',
+  'accept-language' => 'zh-Hans-CN,zh-Hans;q=0.5',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Product->selProduct[ C:\Users\cheyod\Desktop\Home\WWW\bigbase\application\api\controller\v1\Product.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\api\controller\v1\ProductException' not found[C:\Users\cheyod\Desktop\Home\WWW\bigbase\application\api\controller\v1\Product.php:8]
+---------------------------------------------------------------
+[ 2017-08-26T15:52:16+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/product
+[ info ] bigbase.com/index.php/api/v1/product [运行时间：0.028890s][吞吐率：34.61req/s] [内存消耗：1,174.32kb] [文件加载：45]
+[ info ] [ LANG ] C:\Users\cheyod\Desktop\Home\WWW\bigbase\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'selProduct',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__tad=1500863055.3428650; pgv_pvi=4685452288',
+  'connection' => 'Keep-Alive',
+  'host' => 'bigbase.com',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36 Edge/15.15063',
+  'accept-language' => 'zh-Hans-CN,zh-Hans;q=0.5',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Product->selProduct[ C:\Users\cheyod\Desktop\Home\WWW\bigbase\application\api\controller\v1\Product.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\api\controller\v1\ProductException' not found[C:\Users\cheyod\Desktop\Home\WWW\bigbase\application\api\controller\v1\Product.php:8]
+---------------------------------------------------------------
+[ 2017-08-26T15:52:17+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/product
+[ info ] bigbase.com/index.php/api/v1/product [运行时间：0.029348s][吞吐率：34.07req/s] [内存消耗：1,174.32kb] [文件加载：45]
+[ info ] [ LANG ] C:\Users\cheyod\Desktop\Home\WWW\bigbase\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'selProduct',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__tad=1500863055.3428650; pgv_pvi=4685452288',
+  'connection' => 'Keep-Alive',
+  'host' => 'bigbase.com',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36 Edge/15.15063',
+  'accept-language' => 'zh-Hans-CN,zh-Hans;q=0.5',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Product->selProduct[ C:\Users\cheyod\Desktop\Home\WWW\bigbase\application\api\controller\v1\Product.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\api\controller\v1\ProductException' not found[C:\Users\cheyod\Desktop\Home\WWW\bigbase\application\api\controller\v1\Product.php:8]
+---------------------------------------------------------------
+[ 2017-08-26T15:52:17+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/product
+[ info ] bigbase.com/index.php/api/v1/product [运行时间：0.032024s][吞吐率：31.23req/s] [内存消耗：1,174.32kb] [文件加载：45]
+[ info ] [ LANG ] C:\Users\cheyod\Desktop\Home\WWW\bigbase\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'selProduct',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__tad=1500863055.3428650; pgv_pvi=4685452288',
+  'connection' => 'Keep-Alive',
+  'host' => 'bigbase.com',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36 Edge/15.15063',
+  'accept-language' => 'zh-Hans-CN,zh-Hans;q=0.5',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Product->selProduct[ C:\Users\cheyod\Desktop\Home\WWW\bigbase\application\api\controller\v1\Product.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\api\controller\v1\ProductException' not found[C:\Users\cheyod\Desktop\Home\WWW\bigbase\application\api\controller\v1\Product.php:8]
+---------------------------------------------------------------
+[ 2017-08-26T15:52:17+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/product
+[ info ] bigbase.com/index.php/api/v1/product [运行时间：0.024083s][吞吐率：41.52req/s] [内存消耗：1,174.32kb] [文件加载：45]
+[ info ] [ LANG ] C:\Users\cheyod\Desktop\Home\WWW\bigbase\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'selProduct',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__tad=1500863055.3428650; pgv_pvi=4685452288',
+  'connection' => 'Keep-Alive',
+  'host' => 'bigbase.com',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36 Edge/15.15063',
+  'accept-language' => 'zh-Hans-CN,zh-Hans;q=0.5',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Product->selProduct[ C:\Users\cheyod\Desktop\Home\WWW\bigbase\application\api\controller\v1\Product.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\api\controller\v1\ProductException' not found[C:\Users\cheyod\Desktop\Home\WWW\bigbase\application\api\controller\v1\Product.php:8]
+---------------------------------------------------------------
+[ 2017-08-26T15:52:18+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/product
+[ info ] bigbase.com/index.php/api/v1/product [运行时间：0.030807s][吞吐率：32.46req/s] [内存消耗：1,174.32kb] [文件加载：45]
+[ info ] [ LANG ] C:\Users\cheyod\Desktop\Home\WWW\bigbase\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'selProduct',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__tad=1500863055.3428650; pgv_pvi=4685452288',
+  'connection' => 'Keep-Alive',
+  'host' => 'bigbase.com',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36 Edge/15.15063',
+  'accept-language' => 'zh-Hans-CN,zh-Hans;q=0.5',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Product->selProduct[ C:\Users\cheyod\Desktop\Home\WWW\bigbase\application\api\controller\v1\Product.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\api\controller\v1\ProductException' not found[C:\Users\cheyod\Desktop\Home\WWW\bigbase\application\api\controller\v1\Product.php:8]
+---------------------------------------------------------------
+[ 2017-08-26T15:52:18+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/product
+[ info ] bigbase.com/index.php/api/v1/product [运行时间：0.032186s][吞吐率：31.07req/s] [内存消耗：1,174.32kb] [文件加载：45]
+[ info ] [ LANG ] C:\Users\cheyod\Desktop\Home\WWW\bigbase\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'selProduct',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__tad=1500863055.3428650; pgv_pvi=4685452288',
+  'connection' => 'Keep-Alive',
+  'host' => 'bigbase.com',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36 Edge/15.15063',
+  'accept-language' => 'zh-Hans-CN,zh-Hans;q=0.5',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Product->selProduct[ C:\Users\cheyod\Desktop\Home\WWW\bigbase\application\api\controller\v1\Product.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\api\controller\v1\ProductException' not found[C:\Users\cheyod\Desktop\Home\WWW\bigbase\application\api\controller\v1\Product.php:8]
+---------------------------------------------------------------
+[ 2017-08-26T15:52:18+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/product
+[ info ] bigbase.com/index.php/api/v1/product [运行时间：0.033491s][吞吐率：29.86req/s] [内存消耗：1,174.32kb] [文件加载：45]
+[ info ] [ LANG ] C:\Users\cheyod\Desktop\Home\WWW\bigbase\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'selProduct',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__tad=1500863055.3428650; pgv_pvi=4685452288',
+  'connection' => 'Keep-Alive',
+  'host' => 'bigbase.com',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36 Edge/15.15063',
+  'accept-language' => 'zh-Hans-CN,zh-Hans;q=0.5',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Product->selProduct[ C:\Users\cheyod\Desktop\Home\WWW\bigbase\application\api\controller\v1\Product.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\api\controller\v1\ProductException' not found[C:\Users\cheyod\Desktop\Home\WWW\bigbase\application\api\controller\v1\Product.php:8]
+---------------------------------------------------------------
+[ 2017-08-26T15:52:18+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/product
+[ info ] bigbase.com/index.php/api/v1/product [运行时间：0.038454s][吞吐率：26.01req/s] [内存消耗：1,174.32kb] [文件加载：45]
+[ info ] [ LANG ] C:\Users\cheyod\Desktop\Home\WWW\bigbase\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'selProduct',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__tad=1500863055.3428650; pgv_pvi=4685452288',
+  'connection' => 'Keep-Alive',
+  'host' => 'bigbase.com',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36 Edge/15.15063',
+  'accept-language' => 'zh-Hans-CN,zh-Hans;q=0.5',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Product->selProduct[ C:\Users\cheyod\Desktop\Home\WWW\bigbase\application\api\controller\v1\Product.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\api\controller\v1\ProductException' not found[C:\Users\cheyod\Desktop\Home\WWW\bigbase\application\api\controller\v1\Product.php:8]
+---------------------------------------------------------------
+[ 2017-08-26T15:52:18+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/product
+[ info ] bigbase.com/index.php/api/v1/product [运行时间：0.042175s][吞吐率：23.71req/s] [内存消耗：1,174.32kb] [文件加载：45]
+[ info ] [ LANG ] C:\Users\cheyod\Desktop\Home\WWW\bigbase\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'selProduct',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__tad=1500863055.3428650; pgv_pvi=4685452288',
+  'connection' => 'Keep-Alive',
+  'host' => 'bigbase.com',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36 Edge/15.15063',
+  'accept-language' => 'zh-Hans-CN,zh-Hans;q=0.5',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Product->selProduct[ C:\Users\cheyod\Desktop\Home\WWW\bigbase\application\api\controller\v1\Product.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\api\controller\v1\ProductException' not found[C:\Users\cheyod\Desktop\Home\WWW\bigbase\application\api\controller\v1\Product.php:8]
+---------------------------------------------------------------
+[ 2017-08-26T15:52:18+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/product
+[ info ] bigbase.com/index.php/api/v1/product [运行时间：0.033045s][吞吐率：30.26req/s] [内存消耗：1,174.32kb] [文件加载：45]
+[ info ] [ LANG ] C:\Users\cheyod\Desktop\Home\WWW\bigbase\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'selProduct',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__tad=1500863055.3428650; pgv_pvi=4685452288',
+  'connection' => 'Keep-Alive',
+  'host' => 'bigbase.com',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36 Edge/15.15063',
+  'accept-language' => 'zh-Hans-CN,zh-Hans;q=0.5',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Product->selProduct[ C:\Users\cheyod\Desktop\Home\WWW\bigbase\application\api\controller\v1\Product.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\api\controller\v1\ProductException' not found[C:\Users\cheyod\Desktop\Home\WWW\bigbase\application\api\controller\v1\Product.php:8]
+---------------------------------------------------------------
+[ 2017-08-26T15:52:18+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/product
+[ info ] bigbase.com/index.php/api/v1/product [运行时间：0.022990s][吞吐率：43.50req/s] [内存消耗：1,174.32kb] [文件加载：45]
+[ info ] [ LANG ] C:\Users\cheyod\Desktop\Home\WWW\bigbase\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'selProduct',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__tad=1500863055.3428650; pgv_pvi=4685452288',
+  'connection' => 'Keep-Alive',
+  'host' => 'bigbase.com',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36 Edge/15.15063',
+  'accept-language' => 'zh-Hans-CN,zh-Hans;q=0.5',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Product->selProduct[ C:\Users\cheyod\Desktop\Home\WWW\bigbase\application\api\controller\v1\Product.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\api\controller\v1\ProductException' not found[C:\Users\cheyod\Desktop\Home\WWW\bigbase\application\api\controller\v1\Product.php:8]
+---------------------------------------------------------------
+[ 2017-08-26T15:52:18+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/product
+[ info ] bigbase.com/index.php/api/v1/product [运行时间：0.034137s][吞吐率：29.29req/s] [内存消耗：1,174.32kb] [文件加载：45]
+[ info ] [ LANG ] C:\Users\cheyod\Desktop\Home\WWW\bigbase\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'selProduct',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__tad=1500863055.3428650; pgv_pvi=4685452288',
+  'connection' => 'Keep-Alive',
+  'host' => 'bigbase.com',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36 Edge/15.15063',
+  'accept-language' => 'zh-Hans-CN,zh-Hans;q=0.5',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Product->selProduct[ C:\Users\cheyod\Desktop\Home\WWW\bigbase\application\api\controller\v1\Product.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\api\controller\v1\ProductException' not found[C:\Users\cheyod\Desktop\Home\WWW\bigbase\application\api\controller\v1\Product.php:8]
+---------------------------------------------------------------
+[ 2017-08-26T15:52:18+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/product
+[ info ] bigbase.com/index.php/api/v1/product [运行时间：0.033554s][吞吐率：29.80req/s] [内存消耗：1,174.32kb] [文件加载：45]
+[ info ] [ LANG ] C:\Users\cheyod\Desktop\Home\WWW\bigbase\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'selProduct',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__tad=1500863055.3428650; pgv_pvi=4685452288',
+  'connection' => 'Keep-Alive',
+  'host' => 'bigbase.com',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36 Edge/15.15063',
+  'accept-language' => 'zh-Hans-CN,zh-Hans;q=0.5',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Product->selProduct[ C:\Users\cheyod\Desktop\Home\WWW\bigbase\application\api\controller\v1\Product.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\api\controller\v1\ProductException' not found[C:\Users\cheyod\Desktop\Home\WWW\bigbase\application\api\controller\v1\Product.php:8]
+---------------------------------------------------------------
+[ 2017-08-26T15:52:18+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/product
+[ info ] bigbase.com/index.php/api/v1/product [运行时间：0.028766s][吞吐率：34.76req/s] [内存消耗：1,174.32kb] [文件加载：45]
+[ info ] [ LANG ] C:\Users\cheyod\Desktop\Home\WWW\bigbase\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'selProduct',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__tad=1500863055.3428650; pgv_pvi=4685452288',
+  'connection' => 'Keep-Alive',
+  'host' => 'bigbase.com',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36 Edge/15.15063',
+  'accept-language' => 'zh-Hans-CN,zh-Hans;q=0.5',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Product->selProduct[ C:\Users\cheyod\Desktop\Home\WWW\bigbase\application\api\controller\v1\Product.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\api\controller\v1\ProductException' not found[C:\Users\cheyod\Desktop\Home\WWW\bigbase\application\api\controller\v1\Product.php:8]
+---------------------------------------------------------------
+[ 2017-08-26T15:52:18+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/product
+[ info ] bigbase.com/index.php/api/v1/product [运行时间：0.036251s][吞吐率：27.59req/s] [内存消耗：1,174.32kb] [文件加载：45]
+[ info ] [ LANG ] C:\Users\cheyod\Desktop\Home\WWW\bigbase\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'selProduct',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__tad=1500863055.3428650; pgv_pvi=4685452288',
+  'connection' => 'Keep-Alive',
+  'host' => 'bigbase.com',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36 Edge/15.15063',
+  'accept-language' => 'zh-Hans-CN,zh-Hans;q=0.5',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Product->selProduct[ C:\Users\cheyod\Desktop\Home\WWW\bigbase\application\api\controller\v1\Product.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\api\controller\v1\ProductException' not found[C:\Users\cheyod\Desktop\Home\WWW\bigbase\application\api\controller\v1\Product.php:8]
+---------------------------------------------------------------
+[ 2017-08-26T15:52:18+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/product
+[ info ] bigbase.com/index.php/api/v1/product [运行时间：0.030376s][吞吐率：32.92req/s] [内存消耗：1,174.32kb] [文件加载：45]
+[ info ] [ LANG ] C:\Users\cheyod\Desktop\Home\WWW\bigbase\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'selProduct',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__tad=1500863055.3428650; pgv_pvi=4685452288',
+  'connection' => 'Keep-Alive',
+  'host' => 'bigbase.com',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36 Edge/15.15063',
+  'accept-language' => 'zh-Hans-CN,zh-Hans;q=0.5',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Product->selProduct[ C:\Users\cheyod\Desktop\Home\WWW\bigbase\application\api\controller\v1\Product.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\api\controller\v1\ProductException' not found[C:\Users\cheyod\Desktop\Home\WWW\bigbase\application\api\controller\v1\Product.php:8]
+---------------------------------------------------------------
+[ 2017-08-26T15:52:18+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/product
+[ info ] bigbase.com/index.php/api/v1/product [运行时间：0.033421s][吞吐率：29.92req/s] [内存消耗：1,174.32kb] [文件加载：45]
+[ info ] [ LANG ] C:\Users\cheyod\Desktop\Home\WWW\bigbase\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'selProduct',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__tad=1500863055.3428650; pgv_pvi=4685452288',
+  'connection' => 'Keep-Alive',
+  'host' => 'bigbase.com',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36 Edge/15.15063',
+  'accept-language' => 'zh-Hans-CN,zh-Hans;q=0.5',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Product->selProduct[ C:\Users\cheyod\Desktop\Home\WWW\bigbase\application\api\controller\v1\Product.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\api\controller\v1\ProductException' not found[C:\Users\cheyod\Desktop\Home\WWW\bigbase\application\api\controller\v1\Product.php:8]
+---------------------------------------------------------------
+[ 2017-08-26T15:52:18+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/product
+[ info ] bigbase.com/index.php/api/v1/product [运行时间：0.029892s][吞吐率：33.45req/s] [内存消耗：1,174.32kb] [文件加载：45]
+[ info ] [ LANG ] C:\Users\cheyod\Desktop\Home\WWW\bigbase\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'selProduct',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__tad=1500863055.3428650; pgv_pvi=4685452288',
+  'connection' => 'Keep-Alive',
+  'host' => 'bigbase.com',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36 Edge/15.15063',
+  'accept-language' => 'zh-Hans-CN,zh-Hans;q=0.5',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Product->selProduct[ C:\Users\cheyod\Desktop\Home\WWW\bigbase\application\api\controller\v1\Product.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\api\controller\v1\ProductException' not found[C:\Users\cheyod\Desktop\Home\WWW\bigbase\application\api\controller\v1\Product.php:8]
+---------------------------------------------------------------
+[ 2017-08-26T15:52:18+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/product
+[ info ] bigbase.com/index.php/api/v1/product [运行时间：0.027240s][吞吐率：36.71req/s] [内存消耗：1,174.32kb] [文件加载：45]
+[ info ] [ LANG ] C:\Users\cheyod\Desktop\Home\WWW\bigbase\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'selProduct',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__tad=1500863055.3428650; pgv_pvi=4685452288',
+  'connection' => 'Keep-Alive',
+  'host' => 'bigbase.com',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36 Edge/15.15063',
+  'accept-language' => 'zh-Hans-CN,zh-Hans;q=0.5',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Product->selProduct[ C:\Users\cheyod\Desktop\Home\WWW\bigbase\application\api\controller\v1\Product.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\api\controller\v1\ProductException' not found[C:\Users\cheyod\Desktop\Home\WWW\bigbase\application\api\controller\v1\Product.php:8]
+---------------------------------------------------------------
+[ 2017-08-26T15:52:18+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/product
+[ info ] bigbase.com/index.php/api/v1/product [运行时间：0.030773s][吞吐率：32.50req/s] [内存消耗：1,174.32kb] [文件加载：45]
+[ info ] [ LANG ] C:\Users\cheyod\Desktop\Home\WWW\bigbase\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'selProduct',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__tad=1500863055.3428650; pgv_pvi=4685452288',
+  'connection' => 'Keep-Alive',
+  'host' => 'bigbase.com',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36 Edge/15.15063',
+  'accept-language' => 'zh-Hans-CN,zh-Hans;q=0.5',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Product->selProduct[ C:\Users\cheyod\Desktop\Home\WWW\bigbase\application\api\controller\v1\Product.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\api\controller\v1\ProductException' not found[C:\Users\cheyod\Desktop\Home\WWW\bigbase\application\api\controller\v1\Product.php:8]
+---------------------------------------------------------------
+[ 2017-08-26T15:52:18+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/product
+[ info ] bigbase.com/index.php/api/v1/product [运行时间：0.034886s][吞吐率：28.66req/s] [内存消耗：1,174.32kb] [文件加载：45]
+[ info ] [ LANG ] C:\Users\cheyod\Desktop\Home\WWW\bigbase\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'selProduct',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__tad=1500863055.3428650; pgv_pvi=4685452288',
+  'connection' => 'Keep-Alive',
+  'host' => 'bigbase.com',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36 Edge/15.15063',
+  'accept-language' => 'zh-Hans-CN,zh-Hans;q=0.5',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Product->selProduct[ C:\Users\cheyod\Desktop\Home\WWW\bigbase\application\api\controller\v1\Product.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\api\controller\v1\ProductException' not found[C:\Users\cheyod\Desktop\Home\WWW\bigbase\application\api\controller\v1\Product.php:8]
+---------------------------------------------------------------
+[ 2017-08-26T15:52:18+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/product
+[ info ] bigbase.com/index.php/api/v1/product [运行时间：0.031330s][吞吐率：31.92req/s] [内存消耗：1,174.32kb] [文件加载：45]
+[ info ] [ LANG ] C:\Users\cheyod\Desktop\Home\WWW\bigbase\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'selProduct',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__tad=1500863055.3428650; pgv_pvi=4685452288',
+  'connection' => 'Keep-Alive',
+  'host' => 'bigbase.com',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36 Edge/15.15063',
+  'accept-language' => 'zh-Hans-CN,zh-Hans;q=0.5',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Product->selProduct[ C:\Users\cheyod\Desktop\Home\WWW\bigbase\application\api\controller\v1\Product.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\api\controller\v1\ProductException' not found[C:\Users\cheyod\Desktop\Home\WWW\bigbase\application\api\controller\v1\Product.php:8]
+---------------------------------------------------------------
+[ 2017-08-26T15:52:19+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/product
+[ info ] bigbase.com/index.php/api/v1/product [运行时间：0.036850s][吞吐率：27.14req/s] [内存消耗：1,174.32kb] [文件加载：45]
+[ info ] [ LANG ] C:\Users\cheyod\Desktop\Home\WWW\bigbase\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'selProduct',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__tad=1500863055.3428650; pgv_pvi=4685452288',
+  'connection' => 'Keep-Alive',
+  'host' => 'bigbase.com',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36 Edge/15.15063',
+  'accept-language' => 'zh-Hans-CN,zh-Hans;q=0.5',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Product->selProduct[ C:\Users\cheyod\Desktop\Home\WWW\bigbase\application\api\controller\v1\Product.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\api\controller\v1\ProductException' not found[C:\Users\cheyod\Desktop\Home\WWW\bigbase\application\api\controller\v1\Product.php:8]
+---------------------------------------------------------------
+[ 2017-08-26T15:52:19+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/product
+[ info ] bigbase.com/index.php/api/v1/product [运行时间：0.027406s][吞吐率：36.49req/s] [内存消耗：1,174.32kb] [文件加载：45]
+[ info ] [ LANG ] C:\Users\cheyod\Desktop\Home\WWW\bigbase\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'selProduct',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__tad=1500863055.3428650; pgv_pvi=4685452288',
+  'connection' => 'Keep-Alive',
+  'host' => 'bigbase.com',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36 Edge/15.15063',
+  'accept-language' => 'zh-Hans-CN,zh-Hans;q=0.5',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Product->selProduct[ C:\Users\cheyod\Desktop\Home\WWW\bigbase\application\api\controller\v1\Product.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\api\controller\v1\ProductException' not found[C:\Users\cheyod\Desktop\Home\WWW\bigbase\application\api\controller\v1\Product.php:8]
+---------------------------------------------------------------
+[ 2017-08-26T15:52:19+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/product
+[ info ] bigbase.com/index.php/api/v1/product [运行时间：0.026483s][吞吐率：37.76req/s] [内存消耗：1,174.32kb] [文件加载：45]
+[ info ] [ LANG ] C:\Users\cheyod\Desktop\Home\WWW\bigbase\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'selProduct',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__tad=1500863055.3428650; pgv_pvi=4685452288',
+  'connection' => 'Keep-Alive',
+  'host' => 'bigbase.com',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36 Edge/15.15063',
+  'accept-language' => 'zh-Hans-CN,zh-Hans;q=0.5',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Product->selProduct[ C:\Users\cheyod\Desktop\Home\WWW\bigbase\application\api\controller\v1\Product.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\api\controller\v1\ProductException' not found[C:\Users\cheyod\Desktop\Home\WWW\bigbase\application\api\controller\v1\Product.php:8]
+---------------------------------------------------------------
+[ 2017-08-26T15:52:19+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/product
+[ info ] bigbase.com/index.php/api/v1/product [运行时间：0.020356s][吞吐率：49.13req/s] [内存消耗：1,174.32kb] [文件加载：45]
+[ info ] [ LANG ] C:\Users\cheyod\Desktop\Home\WWW\bigbase\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'selProduct',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__tad=1500863055.3428650; pgv_pvi=4685452288',
+  'connection' => 'Keep-Alive',
+  'host' => 'bigbase.com',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36 Edge/15.15063',
+  'accept-language' => 'zh-Hans-CN,zh-Hans;q=0.5',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Product->selProduct[ C:\Users\cheyod\Desktop\Home\WWW\bigbase\application\api\controller\v1\Product.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\api\controller\v1\ProductException' not found[C:\Users\cheyod\Desktop\Home\WWW\bigbase\application\api\controller\v1\Product.php:8]
+---------------------------------------------------------------
+[ 2017-08-26T15:52:19+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/product
+[ info ] bigbase.com/index.php/api/v1/product [运行时间：0.018681s][吞吐率：53.53req/s] [内存消耗：1,174.32kb] [文件加载：45]
+[ info ] [ LANG ] C:\Users\cheyod\Desktop\Home\WWW\bigbase\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'selProduct',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__tad=1500863055.3428650; pgv_pvi=4685452288',
+  'connection' => 'Keep-Alive',
+  'host' => 'bigbase.com',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36 Edge/15.15063',
+  'accept-language' => 'zh-Hans-CN,zh-Hans;q=0.5',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Product->selProduct[ C:\Users\cheyod\Desktop\Home\WWW\bigbase\application\api\controller\v1\Product.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\api\controller\v1\ProductException' not found[C:\Users\cheyod\Desktop\Home\WWW\bigbase\application\api\controller\v1\Product.php:8]
+---------------------------------------------------------------
+[ 2017-08-26T15:52:19+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/product
+[ info ] bigbase.com/index.php/api/v1/product [运行时间：0.022674s][吞吐率：44.10req/s] [内存消耗：1,174.32kb] [文件加载：45]
+[ info ] [ LANG ] C:\Users\cheyod\Desktop\Home\WWW\bigbase\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'selProduct',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__tad=1500863055.3428650; pgv_pvi=4685452288',
+  'connection' => 'Keep-Alive',
+  'host' => 'bigbase.com',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36 Edge/15.15063',
+  'accept-language' => 'zh-Hans-CN,zh-Hans;q=0.5',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Product->selProduct[ C:\Users\cheyod\Desktop\Home\WWW\bigbase\application\api\controller\v1\Product.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\api\controller\v1\ProductException' not found[C:\Users\cheyod\Desktop\Home\WWW\bigbase\application\api\controller\v1\Product.php:8]
+---------------------------------------------------------------
+[ 2017-08-26T15:52:19+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/product
+[ info ] bigbase.com/index.php/api/v1/product [运行时间：0.020883s][吞吐率：47.89req/s] [内存消耗：1,174.32kb] [文件加载：45]
+[ info ] [ LANG ] C:\Users\cheyod\Desktop\Home\WWW\bigbase\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'selProduct',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__tad=1500863055.3428650; pgv_pvi=4685452288',
+  'connection' => 'Keep-Alive',
+  'host' => 'bigbase.com',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36 Edge/15.15063',
+  'accept-language' => 'zh-Hans-CN,zh-Hans;q=0.5',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Product->selProduct[ C:\Users\cheyod\Desktop\Home\WWW\bigbase\application\api\controller\v1\Product.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\api\controller\v1\ProductException' not found[C:\Users\cheyod\Desktop\Home\WWW\bigbase\application\api\controller\v1\Product.php:8]
+---------------------------------------------------------------
+[ 2017-08-26T15:52:19+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/product
+[ info ] bigbase.com/index.php/api/v1/product [运行时间：0.020185s][吞吐率：49.54req/s] [内存消耗：1,174.32kb] [文件加载：45]
+[ info ] [ LANG ] C:\Users\cheyod\Desktop\Home\WWW\bigbase\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'selProduct',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__tad=1500863055.3428650; pgv_pvi=4685452288',
+  'connection' => 'Keep-Alive',
+  'host' => 'bigbase.com',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36 Edge/15.15063',
+  'accept-language' => 'zh-Hans-CN,zh-Hans;q=0.5',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Product->selProduct[ C:\Users\cheyod\Desktop\Home\WWW\bigbase\application\api\controller\v1\Product.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\api\controller\v1\ProductException' not found[C:\Users\cheyod\Desktop\Home\WWW\bigbase\application\api\controller\v1\Product.php:8]
+---------------------------------------------------------------
+[ 2017-08-26T15:52:19+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/product
+[ info ] bigbase.com/index.php/api/v1/product [运行时间：0.019782s][吞吐率：50.55req/s] [内存消耗：1,174.32kb] [文件加载：45]
+[ info ] [ LANG ] C:\Users\cheyod\Desktop\Home\WWW\bigbase\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'selProduct',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__tad=1500863055.3428650; pgv_pvi=4685452288',
+  'connection' => 'Keep-Alive',
+  'host' => 'bigbase.com',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36 Edge/15.15063',
+  'accept-language' => 'zh-Hans-CN,zh-Hans;q=0.5',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Product->selProduct[ C:\Users\cheyod\Desktop\Home\WWW\bigbase\application\api\controller\v1\Product.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\api\controller\v1\ProductException' not found[C:\Users\cheyod\Desktop\Home\WWW\bigbase\application\api\controller\v1\Product.php:8]
+---------------------------------------------------------------
+[ 2017-08-26T15:52:19+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/product
+[ info ] bigbase.com/index.php/api/v1/product [运行时间：0.020461s][吞吐率：48.87req/s] [内存消耗：1,174.32kb] [文件加载：45]
+[ info ] [ LANG ] C:\Users\cheyod\Desktop\Home\WWW\bigbase\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'selProduct',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__tad=1500863055.3428650; pgv_pvi=4685452288',
+  'connection' => 'Keep-Alive',
+  'host' => 'bigbase.com',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36 Edge/15.15063',
+  'accept-language' => 'zh-Hans-CN,zh-Hans;q=0.5',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Product->selProduct[ C:\Users\cheyod\Desktop\Home\WWW\bigbase\application\api\controller\v1\Product.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\api\controller\v1\ProductException' not found[C:\Users\cheyod\Desktop\Home\WWW\bigbase\application\api\controller\v1\Product.php:8]
+---------------------------------------------------------------
+[ 2017-08-26T15:53:59+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/product
+[ info ] bigbase.com/index.php/api/v1/product [运行时间：0.030794s][吞吐率：32.47req/s] [内存消耗：1,174.29kb] [文件加载：45]
+[ info ] [ LANG ] C:\Users\cheyod\Desktop\Home\WWW\bigbase\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'selProduct',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__tad=1500863055.3428650; pgv_pvi=4685452288',
+  'connection' => 'Keep-Alive',
+  'host' => 'bigbase.com',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36 Edge/15.15063',
+  'accept-language' => 'zh-Hans-CN,zh-Hans;q=0.5',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Product->selProduct[ C:\Users\cheyod\Desktop\Home\WWW\bigbase\application\api\controller\v1\Product.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\api\controller\v1\ProductException' not found[C:\Users\cheyod\Desktop\Home\WWW\bigbase\application\api\controller\v1\Product.php:9]
+---------------------------------------------------------------
+[ 2017-08-26T15:54:00+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/product
+[ info ] bigbase.com/index.php/api/v1/product [运行时间：0.043871s][吞吐率：22.79req/s] [内存消耗：1,174.29kb] [文件加载：45]
+[ info ] [ LANG ] C:\Users\cheyod\Desktop\Home\WWW\bigbase\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'selProduct',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__tad=1500863055.3428650; pgv_pvi=4685452288',
+  'connection' => 'Keep-Alive',
+  'host' => 'bigbase.com',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36 Edge/15.15063',
+  'accept-language' => 'zh-Hans-CN,zh-Hans;q=0.5',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Product->selProduct[ C:\Users\cheyod\Desktop\Home\WWW\bigbase\application\api\controller\v1\Product.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\api\controller\v1\ProductException' not found[C:\Users\cheyod\Desktop\Home\WWW\bigbase\application\api\controller\v1\Product.php:9]
+---------------------------------------------------------------
+[ 2017-08-26T15:54:01+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/product
+[ info ] bigbase.com/index.php/api/v1/product [运行时间：0.031725s][吞吐率：31.52req/s] [内存消耗：1,174.29kb] [文件加载：45]
+[ info ] [ LANG ] C:\Users\cheyod\Desktop\Home\WWW\bigbase\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'selProduct',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__tad=1500863055.3428650; pgv_pvi=4685452288',
+  'connection' => 'Keep-Alive',
+  'host' => 'bigbase.com',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36 Edge/15.15063',
+  'accept-language' => 'zh-Hans-CN,zh-Hans;q=0.5',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Product->selProduct[ C:\Users\cheyod\Desktop\Home\WWW\bigbase\application\api\controller\v1\Product.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\api\controller\v1\ProductException' not found[C:\Users\cheyod\Desktop\Home\WWW\bigbase\application\api\controller\v1\Product.php:9]
+---------------------------------------------------------------
+[ 2017-08-26T15:54:03+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/product
+[ info ] bigbase.com/index.php/api/v1/product [运行时间：0.027776s][吞吐率：36.00req/s] [内存消耗：1,174.29kb] [文件加载：45]
+[ info ] [ LANG ] C:\Users\cheyod\Desktop\Home\WWW\bigbase\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'selProduct',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__tad=1500863055.3428650; pgv_pvi=4685452288',
+  'connection' => 'Keep-Alive',
+  'host' => 'bigbase.com',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36 Edge/15.15063',
+  'accept-language' => 'zh-Hans-CN,zh-Hans;q=0.5',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Product->selProduct[ C:\Users\cheyod\Desktop\Home\WWW\bigbase\application\api\controller\v1\Product.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\api\controller\v1\ProductException' not found[C:\Users\cheyod\Desktop\Home\WWW\bigbase\application\api\controller\v1\Product.php:9]
+---------------------------------------------------------------
+[ 2017-08-26T15:56:14+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/product
+[ info ] bigbase.com/index.php/api/v1/product [运行时间：0.033273s][吞吐率：30.05req/s] [内存消耗：1,167.30kb] [文件加载：46]
+[ info ] [ LANG ] C:\Users\cheyod\Desktop\Home\WWW\bigbase\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'selProduct',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__tad=1500863055.3428650; pgv_pvi=4685452288',
+  'connection' => 'Keep-Alive',
+  'host' => 'bigbase.com',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36 Edge/15.15063',
+  'accept-language' => 'zh-Hans-CN,zh-Hans;q=0.5',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Product->selProduct[ C:\Users\cheyod\Desktop\Home\WWW\bigbase\application\api\controller\v1\Product.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [404][C:\Users\cheyod\Desktop\Home\WWW\bigbase\application\api\controller\v1\Product.php:10]
